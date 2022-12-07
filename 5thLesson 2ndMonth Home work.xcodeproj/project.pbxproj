@@ -14,6 +14,11 @@
 		A65AF051293F18180042CD0F /* pickup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF050293F18180042CD0F /* pickup.swift */; };
 		A65AF053293F182A0042CD0F /* jeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF052293F182A0042CD0F /* jeep.swift */; };
 		A65AF055293F183F0042CD0F /* crossover.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF054293F183F0042CD0F /* crossover.swift */; };
+		A65AF0572940A4E10042CD0F /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF0562940A4E10042CD0F /* product.swift */; };
+		A65AF0592940B7560042CD0F /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF0582940B7560042CD0F /* food.swift */; };
+		A65AF05B2940B7950042CD0F /* drinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF05A2940B7950042CD0F /* drinkable.swift */; };
+		A65AF05D2940B8060042CD0F /* houseHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF05C2940B8060042CD0F /* houseHold.swift */; };
+		A65AF05F2940B84B0042CD0F /* appliances.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65AF05E2940B84B0042CD0F /* appliances.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +42,11 @@
 		A65AF050293F18180042CD0F /* pickup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickup.swift; sourceTree = "<group>"; };
 		A65AF052293F182A0042CD0F /* jeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jeep.swift; sourceTree = "<group>"; };
 		A65AF054293F183F0042CD0F /* crossover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crossover.swift; sourceTree = "<group>"; };
+		A65AF0562940A4E10042CD0F /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		A65AF0582940B7560042CD0F /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		A65AF05A2940B7950042CD0F /* drinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkable.swift; sourceTree = "<group>"; };
+		A65AF05C2940B8060042CD0F /* houseHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = houseHold.swift; sourceTree = "<group>"; };
+		A65AF05E2940B84B0042CD0F /* appliances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appliances.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +81,16 @@
 			children = (
 				A65AF043293BA37C0042CD0F /* main.swift */,
 				A65AF04A293BA4400042CD0F /* protocol.swift */,
-				A65AF04C293BA6940042CD0F /* car.swift */,
 				A65AF04E293F15100042CD0F /* structure.swift */,
+				A65AF04C293BA6940042CD0F /* car.swift */,
 				A65AF050293F18180042CD0F /* pickup.swift */,
 				A65AF052293F182A0042CD0F /* jeep.swift */,
 				A65AF054293F183F0042CD0F /* crossover.swift */,
+				A65AF0562940A4E10042CD0F /* product.swift */,
+				A65AF0582940B7560042CD0F /* food.swift */,
+				A65AF05A2940B7950042CD0F /* drinkable.swift */,
+				A65AF05C2940B8060042CD0F /* houseHold.swift */,
+				A65AF05E2940B84B0042CD0F /* appliances.swift */,
 			);
 			path = "5thLesson 2ndMonth Home work";
 			sourceTree = "<group>";
@@ -138,13 +153,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65AF05B2940B7950042CD0F /* drinkable.swift in Sources */,
 				A65AF044293BA37C0042CD0F /* main.swift in Sources */,
+				A65AF0572940A4E10042CD0F /* product.swift in Sources */,
 				A65AF053293F182A0042CD0F /* jeep.swift in Sources */,
+				A65AF05D2940B8060042CD0F /* houseHold.swift in Sources */,
 				A65AF04D293BA6940042CD0F /* car.swift in Sources */,
 				A65AF055293F183F0042CD0F /* crossover.swift in Sources */,
+				A65AF0592940B7560042CD0F /* food.swift in Sources */,
 				A65AF04B293BA4400042CD0F /* protocol.swift in Sources */,
 				A65AF04F293F15100042CD0F /* structure.swift in Sources */,
 				A65AF051293F18180042CD0F /* pickup.swift in Sources */,
+				A65AF05F2940B84B0042CD0F /* appliances.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

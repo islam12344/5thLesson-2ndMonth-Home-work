@@ -12,5 +12,5 @@ protocol Cars{
     func showInfo()
 }
 
-//2. Задание
 
+ 

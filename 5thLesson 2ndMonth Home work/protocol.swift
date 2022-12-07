@@ -32,9 +32,10 @@ protocol CarProtocol{
 }
 
 //2. Задание
-protocol Product{
+protocol ProductProtocol{
     var name: String {get set}
     var price: Int {get set}
     var shelfLife: Double {get set}
     var weight: Int {get set}
+    func infoShow()
 }
